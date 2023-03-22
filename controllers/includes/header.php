@@ -16,8 +16,7 @@
                 </div>
             </div>
         </form>  -->
-        <div class="main-header__counter-placeholder" ></div> 
-        <div class="main-nav main-header__nav"  >
+        <!-- <div>
             <button type="button" role="button" aria-label="Toggle menu" data-track-id="burger-menu" data-test-id="main-nav-toggle" class="button main-nav__button base-button base-button--variant-solid-white base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start button-icon"> 
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-test-id="button-icon" class="icon icon--icon-hamburger icon--size-m">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M22 5a1 1 0 00-1-1H3a1 1 0 000 2h18a1 1 0 001-1zm0 14a1 1 0 00-1-1H3a1 1 0 100 2h18a1 1 0 001-1zm-1-8a1 1 0 110 2H8a1 1 0 110-2h13z" fill="currentColor"  ></path>
@@ -25,6 +24,6 @@
                 <span class="button__text"></span>
             </button>
             
-        </div>
+        </div> -->
     </div> 
 </header>

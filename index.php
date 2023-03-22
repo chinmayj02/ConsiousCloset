@@ -8,6 +8,7 @@
     <meta name="keywords" content="ConsiousCloset, green, sustainable, eco-friendly,eco,environment,trees,organic">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
 
 </head>
 
