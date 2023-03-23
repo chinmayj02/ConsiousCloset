@@ -196,6 +196,91 @@ legend {
     white-space: normal
 }
 
+.store-section{
+    width: 100%;
+    height:auto;
+    background-color: #1a1a1a;
+    display: flex;
+    padding: 70px !important;
+}
+.store-section .Cards{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.store-section .Cards .card1{
+    height: 350px;
+    width: 250px;
+    background-color: #96d6f8;
+    margin-right:30px;
+    border-radius: 8px;
+
+    background-image: url("../images/pic4.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.store-section .Cards .card2{
+    height: 350px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #fff;
+    background-image: url("../images/pic5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#card-1{
+    position: relative;
+    width: 130px;
+    align-items: center;
+    margin-top: 225px;
+    /* background-color: #1a1a1a; */
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card-2{
+    position: relative;
+    width: 130px;
+    align-items: center;
+    margin-top: 225px;
+    /* background-color: #1a1a1a; */
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#store-sec-text{
+    color: white;
+    text-decoration: solid;
+    font-family: "Founders Grotesk", Inter, helvetica, arial, sans-serif;
+    margin-left: 100px;
+    margin-top: 145px;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
 progress {
     vertical-align: initial
 }
@@ -2504,15 +2589,18 @@ body.no-scroll {
     margin: 24px auto 0;
     width: 100%;
     /* padding-bottom: 100%; */
-    position: relative
-}
+    display:flex;
+    justify-content: space-between;
 
-.flex-side{
-    display: flex;
 }
 
 .extension-section__slides .card1{
-    width:200px;
+    width:50%;
+    height:500px;
+    background: #FFFFFF !important;
+}
+.extension-section__slides .card2{
+    width:50%;
     height:500px;
     background: #FFFFFF !important;
 }
@@ -2668,7 +2756,8 @@ body.no-scroll {
     flex-direction: column;
     list-style: none;
     margin: 0;
-    padding: 0
+    padding: 0;
+    margin-bottom: 0em;
 }
 
 @media only screen and (min-width:992px) {

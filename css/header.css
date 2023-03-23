@@ -115,6 +115,9 @@
     order: 4;
     width: 100%
 }
+.Bname{
+    color: #5dd25e;
+}
 
 @media only screen and (min-width:992px) {
     .main-header__search {
