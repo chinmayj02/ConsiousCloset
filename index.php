@@ -49,7 +49,7 @@
             <div class="Cards">
 
                 <div class="card1">
-                    <button id="card-1" class="btn btn-success"><span class="b1text">Store</span></button>
+                    <a href="product-categories.php"><button id="card-1"  class="btn btn-success"><span class="b1text">Store</span></button></a>
                 </div>
 
                 <div class="card2">
