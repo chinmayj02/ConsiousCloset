@@ -46,7 +46,7 @@
         <label >4.Credle to Cradle (C.T.C):-</label>
         <input type="text" name="CN4" placeholder="Certificate Number">
         <label >5.Blue Sign (B.S):-</label>
-        <input type="text" placeholder="CN5">
+        <input type="text" placeholder="Certificate Number">
         <input type="submit" class="button_sub" value="submit">
     </form>
     </section>
