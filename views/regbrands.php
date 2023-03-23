@@ -1,4 +1,4 @@
-<?php include('../controllers/admindash_php_code.php'); ?>
+
 <?php
 // if (isset($_GET['edit'])) {
 //     $purchase_id = $_GET['edit'];
@@ -6,7 +6,7 @@
 //     $record = mysqli_query($db, "SELECT * FROM purchases WHERE purchase_id=$purchase_id");
 
 //     // if (count($record) == 1 ) {
-    $n = mysqli_fetch_array(mysqli_query($db, "SELECT * FROM brands"));
+//     $n = mysqli_fetch_array($record);
 
 //     $client_id = $n['client_id'];
 //     $product_id = $n['product_id'];
@@ -85,70 +85,45 @@
                 
         </div>
         
-        <?php $result = mysqli_fetch_array(mysqli_query($db, "SELECT * FROM brands where not approval")); ?>
+        
         
 
         <table>
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>GST No.</th>
-                    <th>(G.O.T.S)</th>
-                    <th>(G.R.S)</th>
-                    <th>(O.T)</th>
-                    <th>(C.T.C)</th>
-                    <th>(B.S)</th>
+                    <th>Invoice Id</th>
+                    <th>Client Name</th>
+                    <th>Invoice Number</th>
+                    <th>Total Amount</th>
+                    <th>Payment Status</th>
+                    <th>View</th>
                 </tr>
             </thead>
 
-            <?php while ($row = $result) { ?> 
+            
             <tr>
                 <td>
-                <?php echo $row['name']; ?>
-                </td>
-                <td>
-                <?php echo $row['email']; ?>
-                </td>
-                <td>
-                <?php echo $row['gstno']; ?>
-                </td>
-                <td>
-                <?php if (isset($row['CN1'])){ ?>
-                    <img class="tick" src="../images/check.png">
-                    <?php }?>
-                </td>
-                <td>
-                <?php if (isset($row['CN2'])){ ?>
-                    <img class="tick" src="../images/check.png">
-                    <?php }?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN3'])){ ?>
-                    <img class="tick" src="../images/check.png">
-                    <?php }?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN4'])){ ?>
-                    <img class="tick" src="../images/check.png">
-                    <?php }?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN5'])){ ?>
-                    <img class="tick" src="../images/check.png">
-                    <?php }?>
+                
+                </td>
+                <td>
+               
                     
                 </td>
                 <td>
-                    <a href="invoice_view.php?update=<?php echo '%27' ?><?php echo ($row['bid']); ?><?php echo '%27' ?>"
-                        class="del_btn">Approve</a>
+                    <!-- <a href="invoice_view.php?view=<?php echo '%27' ?><?php echo ($row['invoice_number']); ?><?php echo '%27' ?>"
+                        class="del_btn">View Invoice</a> -->
                 </td>
             </tr>
-            <?php }?>
-
+            
         </table>
             </div>
         </div>
