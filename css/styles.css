@@ -806,7 +806,9 @@ body.no-scroll {
 }
 
 .heading--h2 {
-    font-size: 20px
+    font-size: 20px;
+    /* font-weight:light; */
+
 }
 
 @media only screen and (min-width:768px) {
@@ -3106,8 +3108,8 @@ body.no-scroll {
     display: grid;
     grid-template-areas: "content" "chart" "button";
     grid-template-columns: 1fr;
-    grid-gap: 0 40px;
-    gap: 0 40px
+    /* grid-gap: 0 40px;
+    gap: 0 40px */
 }
 
 @media only screen and (min-width:992px) {
@@ -3196,6 +3198,7 @@ body.no-scroll {
     display: flex;
     align-items: center;
     right: 10%
+    
 }
 
 .financial-report-section__total {
