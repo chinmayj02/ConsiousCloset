@@ -38,30 +38,31 @@
         <hr>
         <label style="text-align:left;">Certifications :</label>
         <label >1.Global Organic Textile Standard (G.O.T.S):-</label>
-        <input type="text" name="CN1" placeholder="Certificate Number">
+        <input type="text" name="CN1" placeholder="Certificate Number" value="" onkeyup="val(this.value)">
         <label >2.Global Recyled Standard (G.R.S):-</label>
-        <input type="text" name="CN2" placeholder="Certificate Number">
+        <input type="text" name="CN2" placeholder="Certificate Number" value="" onkeyup="val(this.value)">
         <label >3.OEKO-TEX (O.T):-</label>
-        <input type="text" name="CN3" placeholder="Certificate Number">
+        <input type="text" name="CN3" placeholder="Certificate Number" value="" onkeyup="val(this.value)">
         <label >4.Credle to Cradle (C.T.C):-</label>
-        <input type="text" name="CN4" placeholder="Certificate Number">
+        <input type="text" name="CN4" placeholder="Certificate Number" value="" onkeyup="val(this.value)">
         <label >5.Blue Sign (B.S):-</label>
-        <input type="text" placeholder="CN5">
-        <input type="submit" class="button_sub" value="submit">
+        <input type="text" placeholder="Certificate Number" value="" onkeyup="val(this.value)">
+        <input type="submit" class="button_sub" value="submit" disabled>
     </form>
     </section>
     </div>
         <?php require "../controllers/includes/footer.php" ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script>
-        function val(){
-            var confirm_pass=document.querySelector('#con_password').value;
-            var pass=document.querySelector('#password').value;
-            if(pass==confirm_pass){
-                var confirm_pass=document.querySelector('.button_sub').disabled='false';
+       function val(str){
+            if(str!=""){
+                document.querySelector(".button_sub").disabled=false;
             }
+            else{
+                document.querySelector(".button_sub").disabled=true;
 
-        }
+            }
+       }
         </script>
 </body>
 
