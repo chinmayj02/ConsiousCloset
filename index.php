@@ -47,6 +47,10 @@
         <section class="section-wrapper extension-section section-wrapper--default" id="store_section">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
+                <div class="extension-section__slides">
+                    <div class="card1"></div>
+                    <div class="card2"></div>
+                </div>
                     <div class="extension-section__slides">
                         <div>
                             <!-- <img class="thrift-image" src="images/markus-winkler-PQmXUxmfR44-unsplash.jpg"></div> -->

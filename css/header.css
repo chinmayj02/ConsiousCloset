@@ -12,13 +12,18 @@
 .navitems{
     margin-left: auto;
 }
+
+.navbar-brand img{
+ border-radius:100%;
+ width: 60px;
+}
+
 .navbar-nav li a::after {
     color: #fff;
   }
   .navbar-nav li a::before {
     color: #fff;
   }
-  
 
 .main-header__content>* {
     flex-shrink: 0
