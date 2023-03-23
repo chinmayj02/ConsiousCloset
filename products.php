@@ -1,3 +1,16 @@
+<?php if(isset($_GET['cat'])){
+    $cat = $_GET['cat'];
+    if ($cat != "") {
+        $conn=mysqli_connect("localhost","root","","consciousaparel")or die(mysqli_error($conn));
+        $query = mysqli_query($conn, "SELECT * FROM products WHERE category=$cat");
+    }
+
+}
+?>
+    
+
+
+
 <html>
     <head>    
 
@@ -150,31 +163,65 @@ a{
     <body>
     <?php require "controllers/includes/header.php" ?>
     <div id="toast"></div>
-<div id="toast-cart"></div>
-<div class="container">
-  <h1 align="center">What are you looking for?</h1>
-  <hr>
-  <br>
-  <div class="row">
-  <div class="col-lg-4">
-    <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-        <img onclick="redirectTo('pants')" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80   " class="first-image">
+        <div id="toast-cart"></div>
+        <div class="container">
+        <h1 align="center">What are you looking for?</h1>
+        <hr>
+        <br>
+        <div class="row">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
+                <img onclick="redirectTo('pants')" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80   " class="first-image">
+                <div class="card-body">
+                    <center>
+                        <a href="products.php?cat='pants'"><h5 class="card-title">Pants</h5></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
+            <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+        <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
         <div class="card-body">
-        <center>
-            <a href="products.php?cat='pants'"><h5 class="card-title">Pants</h5></a>
-        </center>
-  </div>
+            <center>
+            <h5 class="card-title">T-shirt</h5>
+            </center>
+        </div>
 </div>
 </div>
-      <div class="col-lg-4">
-    <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
-      <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-  <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
+    <div class="col-lg-4">
+    <div class="card" style="width: 18rem;"  onclick="redirectTo('shoes')">
+      <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+  <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">T-shirt</h5>
+      <h5 class="card-title">shoes</h5>
     </center>
   </div>
+</div>
+</div>
+  </div>
+  <div class="row">
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
+                <img onclick="redirectTo('pants')" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80   " class="first-image">
+                <div class="card-body">
+                    <center>
+                        <a href="products.php?cat='pants'"><h5 class="card-title">Pants</h5></a>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
+            <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
+        <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
+        <div class="card-body">
+            <center>
+            <h5 class="card-title">T-shirt</h5>
+            </center>
+        </div>
 </div>
 </div>
     <div class="col-lg-4">

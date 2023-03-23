@@ -1,8 +1,9 @@
-<?php if (basename($_SERVER['PHP_SELF'], '.php') == "index" || basename($_SERVER['PHP_SELF'], '.php') == "product-categories"){
+<?php if (basename($_SERVER['PHP_SELF'], '.php') == "index" || basename($_SERVER['PHP_SELF'], '.php') == "product-categories"|| basename($_SERVER['PHP_SELF'], '.php') == "products"){
     $img_url="images/logo.png";
 }
 else
 $img_url="../images/logo.png";
+
 ?>
 
 <header aria-label="Main header" class="main-header__content">
@@ -21,7 +22,10 @@ $img_url="../images/logo.png";
                 <div class="navitems">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#store_section">Store</a>
+                       <?php if ( basename($_SERVER['PHP_SELF'], '.php') != "product-categories"){?>
+  <a class="nav-link" href="product-categories.php">Store</a><?php }else{?>
+    <a class="nav-link" href="index.php">Home</a> <?php
+  }?>
                         </li>
                         <li>
                             <a class="nav-link" href="#our_initiative">Our Initiative</a>
