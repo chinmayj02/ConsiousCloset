@@ -1,8 +1,15 @@
+<?php if (basename($_SERVER['PHP_SELF'], '.php') == "index"){
+    $img_url="images/logo.png";
+}
+else
+$img_url="../images/logo.png";
+?>
+
 <header aria-label="Main header" class="main-header__content">
     <nav class="navbar fixed-top navbar-expand-lg" style="background-color:transparent;">
         <div class="container-fluid">
             <div class="brand">
-                <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo">
+                <a class="navbar-brand" href="#"><img src="<?php echo $img_url; ?>" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
