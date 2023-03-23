@@ -32,6 +32,7 @@
                 </div>
             </div> 
         </section>
+        <!-- store buttons -->
         <section class="section-wrapper extension-section section-wrapper--default">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
@@ -91,10 +92,8 @@
                 </div>
             </div>
         </section>
-        <div class="forest-section forest-section--variant-primary">
-            <div data-test-id="forest-section-forest" class="forest-section__forest"></div>
-            <div data-test-id="forest-section-wave" class="forest-section__wave wave-seperator wave-seperator--variant-secondary"></div>
-        </div>
+        
+        <!-- our initiative -->
         <section class="section-wrapper projects-section section-wrapper--dark-green">
             <div class="section-wrapper__content">
                 <div class="section-header projects-section__header section-header--center">
@@ -162,7 +161,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section-wrapper before-after-section section-wrapper--dark-green">
+        <!-- <section class="section-wrapper before-after-section section-wrapper--dark-green">
             <div class="section-wrapper__content">
                 <div class="before-after-section__content">
                     <div class="before-after-section__content-text">
@@ -188,8 +187,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="section-wrapper map-section section-wrapper--dark-green">
+        </section> -->
+        <!-- <section class="section-wrapper map-section section-wrapper--dark-green">
             <div class="section-wrapper__content">
                 <div class="section-header map-section__title section-header--center">
                     <h2 class="section-header__title section-header__title--variant">
@@ -238,8 +237,7 @@
                         Discover all projects
                     </span></a>
             </div>
-        </section>
-        <div data-test-id="wave-seperator" class="wave-seperator wave-seperator--variant-quarternary"></div>
+        </section> -->
         <section class="section-wrapper financial-report-section section-wrapper--gray">
             <div class="section-wrapper__content">
                 <div class="financial-report-section__slot">
@@ -274,7 +272,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-wrapper claims-values-section section-wrapper--gray">
+        <!-- <section class="section-wrapper claims-values-section section-wrapper--gray">
             <div class="section-wrapper__content">
                 <div class="section-header claims-values-section__header section-header--center">
                     <h2 class="section-header__title">
@@ -343,7 +341,7 @@
                     </li>
                 </ol>
             </div>
-        </section>
+        </section> -->
         <div data-test-id="wave-seperator" class="wave-seperator wave-seperator--variant-primary"></div>
         <section class="section-wrapper join-section section-wrapper--light-green">
             <div class="section-wrapper__content">
