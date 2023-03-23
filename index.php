@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>ConsiousCloset</title>
+    <title>GreenCloset</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="ConsiousCloset, green, sustainable, eco-friendly,eco,environment,trees,organic">
@@ -22,11 +22,12 @@
                 <div class="above-fold-section__search-install">
                     <!-- heading -->
                     <h1 class="above-fold-section__heading heading heading--h1">
-                        A better planet with every search
+                        A better planet with every thread
                     </h1>
                     <!-- sub-heading -->
                     <h2 class="above-fold-section__description heading heading--h2">
-                        The simplest way to plant trees and be climate active every day
+                        Join the sustainable fashion movement and make a positive impact 
+                        on the planet through your wardrobe choices
                     </h2>
                 </div>
             </div> 
