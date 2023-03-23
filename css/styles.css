@@ -2363,9 +2363,19 @@ body.no-scroll {
 
 .section-wrapper__content {
     margin: 0 auto;
-    max-width: 280px
+    max-width: 280px;
+    display:flex;
+    justify-content: space-between;
 }
 
+.store-wrap{
+    display:flex;
+    justify-content: space-between;
+    background: #1a1a1a;
+    background: var(--color-background-primary );
+    color: #fff;
+    color: var(--color-text-primary)
+}
 @media only screen and (min-width:400px) {
     .section-wrapper__content {
         max-width: 400px
@@ -3498,4 +3508,11 @@ body.no-scroll {
     }
 }
 
-
+.left{
+    max-width:40vw;
+}
+.thrift-image{
+    height:200px;
+    width:100px;
+    border-radius: 8;;
+}

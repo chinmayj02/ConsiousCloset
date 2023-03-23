@@ -36,12 +36,15 @@
         <section class="section-wrapper extension-section section-wrapper--default">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
-                    <div class="extension-section__slides"></div>
+                    <div class="extension-section__slides">
+                        <div >
+                            <!-- <img class="thrift-image" src="images/markus-winkler-PQmXUxmfR44-unsplash.jpg"></div> -->
+                    </div>
                     <div class="extension-section__text">
                         <div class="section-header extension-section__header">
                             
                             <h3 class="section-header__subtitle">
-                                Make the switch to Ecosia
+                                Make the choice for a better future
                             </h3>
                         </div>
                         <div class="extension-section__contents" style="width:300%;transform:translateX(0%);">
@@ -72,22 +75,6 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="extension-section__controls"><button type="button" role="button" data-test-id="extension-section-control-previous" aria-label="Previous" variant="bare" elevation="0" class="button base-button base-button--variant-bare base-button--size-l base-button--elevation-0 base-button--text-size-l button button--icon-position-start button-icon"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-test-id="button-icon" class="icon icon--icon-arrow-left icon--size-m">
-                                <path d="M10.707 17.793a1 1 0 01-1.414 1.414L3.5 13.414a2 2 0 010-2.828l5.793-5.793a1 1 0 011.414 1.414L5.914 11H20a1 1 0 110 2H5.914l4.793 4.793z" fill="currentColor"></path>
-                            </svg> <span data-test-id="button-text" class="button__text"></span></button>
-                        <div class="extension-section__steps" style="width:176px;"><label class="extension-section__step"><input type="radio" value="0" checked="checked" class="extension-section__radio">
-                                <div class="extension-section__step-inner">
-                                </div>
-                            </label><label class="extension-section__step"><input type="radio" value="1" class="extension-section__radio">
-                                <div class="extension-section__step-inner">
-                                </div>
-                            </label><label class="extension-section__step"><input type="radio" value="2" class="extension-section__radio">
-                                <div class="extension-section__step-inner">
-                                </div>
-                            </label></div> <button type="button" role="button" aria-label="Next" data-test-id="extension-section-control-next" variant="bare" elevation="0" class="button base-button base-button--variant-bare base-button--size-l base-button--elevation-0 base-button--text-size-l button button--icon-position-start button-icon"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" data-test-id="button-icon" class="icon icon--icon-arrow-right icon--size-m">
-                                <path d="M13.293 17.793a1 1 0 001.414 1.414l5.793-5.793a2 2 0 000-2.828l-5.793-5.793a1 1 0 10-1.414 1.414L18.086 11H4a1 1 0 100 2h14.086l-4.793 4.793z" fill="currentColor"></path>
-                            </svg> <span data-test-id="button-text" class="button__text"></span></button>
                     </div>
                 </div>
             </div>
