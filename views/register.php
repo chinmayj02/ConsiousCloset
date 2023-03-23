@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/header.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/register.css">
 
 </head>
 
@@ -19,16 +20,8 @@
         <?php require "../controllers/includes/header.php" ?>
         
         <section class="above-fold-section above-fold-section--video-closed">
-            <div class="above-fold-section__content">
-            <!DOCTYPE html>
-<html>
-<head>
-	<title>Sign Up</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="sign-up.css">
-	<script src="validate.js"></script>
-</head>
-<body>
+            
+            
 	<h1>Sign Up</h1>
 	<form action="signup.php" method="POST" onsubmit="return validateForm()">
 		<label for="full_name">Full Name</label>
@@ -48,10 +41,7 @@
 
 		<input type="submit" value="Sign Up">
 	</form>
-</body>
-</html>
 
-            </div> 
         </section>
 
         <?php require "../controllers/includes/footer.php" ?>
