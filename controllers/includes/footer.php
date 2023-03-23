@@ -1,9 +1,9 @@
 <footer class="full-footer" data-v-186a190d data-v-b4e1f63a><svg width="1440" height="88" viewBox="0 0 1440 88" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="full-footer__wave" data-v-186a190d data-v-186a190d>
         <path d="M0 47.577c95.583 0 106.97 8.729 226.979 8.729 120.009 0 176.224-34.103 296.233-34.103 105.102 0 97.379 13.486 217.388 13.486C833.777 35.689 900.66 0 1008.17 0c120.01 0 116.52 20.533 236.5 20.533 119.97 0 114.69-11.924 195.33-11.924V88H0V47.577z" fill="currentColor" data-v-186a190d data-v-186a190d></path>
     </svg>
-    <div class="full-footer__content" data-v-186a190d>
-        
-        
+    <div class="full-footer__content" data-v-186a190d style="justify-content:center;color:white;">
+        <?php if (basename($_SERVER['PHP_SELF'], '.php') != "register"){
+ ?><a href="views/register.php" style="text-decoration:none;color:white;">Register your brand</a><?php } ?>
     </div>
     <div class="footer-social full-footer__social" data-v-186a190d>
         <ul class="footer-social__list">

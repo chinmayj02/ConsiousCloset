@@ -1,5 +1,5 @@
 <header aria-label="Main header" class="main-header__content">
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color:#1a1a1a;">
         <div class="container-fluid">
             <div class="brand">
                 <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo">

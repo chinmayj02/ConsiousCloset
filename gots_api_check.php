@@ -63,13 +63,14 @@
 // }
 
 
-$product_code="SHAO085199";
-  $url = 'https://www.oeko-tex.com/en/our-standards/certifications/certificate-data/?certificate=' . $product_code;
+$product_code="roica";
+  $url = 'https://c2ccertified.org/certified-products-and-materials/roica-v550-europe-bn' . $product_code;
   $response = file_get_contents($url);
   if ($response !== false) {
       if (strpos($response, 'This certificate is valid') !== false) {
       }
   }
+
 
 ?>
 

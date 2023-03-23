@@ -229,9 +229,9 @@
         <section class="section-wrapper join-section section-wrapper--light-green">
             <div class="section-wrapper__content">
                 <div class="join-section--content">
-                    <h2 data-test-id="join-section-heading" class="join-section__heading">
-                    A commitment to sustainability shouldn't just be buzzwords and vague slogans.
-                    Let us join hands and shape our future well
+                    <h2 data-test-id="join-section-heading" class="join-section__heading" style="font-size: 35px;">
+                    A commitment to sustainability shouldn't just be buzzwords and vague slogans.<br>
+                    Let us join hands and shape our future
                     </h2>
                     <div class="join-section--counter-wrapper">
                         <div data-test-id="join-section-counter" class="join-section__counter tree-counter-section">
