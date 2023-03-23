@@ -37,19 +37,42 @@ html {
     color: var(--color-text-primary)
 }
 .above-fold-section__content{
-    display: flex;
+    display: flex !important;
     width: 100% !important;
 }
 .home_section_pic{
     width: 100%;
     display: flex;
 }
+
+.home_section_pic img:nth-child(1){
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.home_section_pic .pic2 img:nth-child(1){
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.home_section_pic img:nth-child(2){
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
 .home_section{
 width: 100%;
 }
+.pic1{
+    
+    width: 100%;
+}
+
 .pic2{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .indexpage {
     min-width: 320px
@@ -2235,7 +2258,9 @@ body.no-scroll {
 @media only screen and (min-width:992px) {
     .above-fold-section__content {
         width: 50%;
-        padding-top: 100px
+        padding-top: 130px;
+        padding-right:130px;
+        padding-left:130px;
     }
 }
 
