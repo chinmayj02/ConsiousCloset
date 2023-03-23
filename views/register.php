@@ -24,16 +24,16 @@
     <br><br>
 	<h1 style="text-align:center;color:#fff;">Application</h1>
 	<form class="register_form" action="../controllers/register_controller.php" method="POST" onsubmit="return validateForm()" style="padding-bottom:100px;">
-		<label for="full_name">Brand Name :-</label>
-		<input type="text" id="full_name" name="full_name" placeholder="Full Name" >
+		<label for="full_name">Brand Name</label>
+		<input type="text" id="full_name" name="full_name" placeholder="Name" ;>
 
-		<label for="email">Email :-</label>
+		<label for="email">Email</label>
 		<input type="email" id="email" name="email" placeholder="Email" >
 
-		<label for="address">Address :-</label>
+		<label for="address">Address</label>
 		<input type="text" id="address" name="address" placeholder="Username" >
 
-        <label for="gstno">GST Number :-</label>
+        <label for="gstno">GST Number</label>
 		<input type="text" id="gstno" name="gstno" placeholder="GST Number" >
         <hr>
         <label style="text-align:left;">Certifications :</label>
@@ -46,13 +46,23 @@
         <label >4.Credle to Cradle (C.T.C):-</label>
         <input type="text" name="CN4" placeholder="Certificate Number">
         <label >5.Blue Sign (B.S):-</label>
-        <input type="text" name="CN5" placeholder="Certificate Number">
-        <button class="btn btn-success button_sub"type="submit" name="submit" value="sumbit">Submit</button>
+        <input type="text" placeholder="CN5">
+        <input type="submit" class="button_sub" value="submit">
     </form>
     </section>
     </div>
         <?php require "../controllers/includes/footer.php" ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+        function val(){
+            var confirm_pass=document.querySelector('#con_password').value;
+            var pass=document.querySelector('#password').value;
+            if(pass==confirm_pass){
+                var confirm_pass=document.querySelector('.button_sub').disabled='false';
+            }
+
+        }
+        </script>
 </body>
 
 </html>
