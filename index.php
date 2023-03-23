@@ -62,34 +62,7 @@
                                     Make the choice for a better future
                                 </h3>
                             </div>
-                            <div class="extension-section__contents" style="width:300%;transform:translateX(0%);">
-                                <div class="extension-section__content">
-                                    <div class="extension-section__title">
-                                        Add the extension for quick searches
-                                    </div>
-                                    <p class="extension-section__description">
-                                        No need to visit the Ecosia website. Plant trees with searches typed
-                                        directly into your address bar or the search bar shown on a new tab.
-                                    </p>
-                                </div>
-                                <div class="extension-section__content">
-                                    <div class="extension-section__title">
-                                        Watch your impact grow
-                                    </div>
-                                    <p class="extension-section__description">
-                                        Track your tree-planting progress and explore your impact on ecosystems and
-                                        communities.
-                                    </p>
-                                </div>
-                                <div class="extension-section__content">
-                                    <div class="extension-section__title">
-                                        Make greener choices faster
-                                    </div>
-                                    <p class="extension-section__description">
-                                        See which companies lead to a greener world.
-                                    </p>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
