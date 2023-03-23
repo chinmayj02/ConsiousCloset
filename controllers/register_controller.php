@@ -5,15 +5,13 @@ if(isset($_POST['submit']))
     $email=$_POST['email'];
     $address=$_POST['address'];
     $gstno=$_POST['gstno'];
-    $password=md5($_POST['password']);
-    $confirm_password=md5($_POST['password']);
     $CN1=null;
-$CN2=null;
-$CN3=null;
-$CN4=null;
-$CN5=null;
-    if($password==$confirm_password)
-    {
+    $CN2=null;
+    $CN3=null;
+    $CN4=null;
+    $CN5=null;
+    
+    
         /* API FOR VERIFICATION OF CERTIFICATES*/
         $CN1=$_POST['CN1'];
         $CN2=$_POST['CN2'];
@@ -24,7 +22,7 @@ $CN5=null;
         mysqli_query($conn,"INSERT INTO `Brands`(`name`, `email`, `address`, `gstno`, `CN1`, `CN2`, `CN3`, `CN4`, `CN5`) VALUES ('$full_name','$email','$address','$gstno','$CN1','$CN2','$CN3','$CN4','$CN5');");
         echo "<script>alert('Insertion succesful');</script>";
         header("location:../views/register.php");
-    }
+    
     
     
 }

@@ -3,7 +3,7 @@
     </svg>
     <div class="full-footer__content" data-v-186a190d style="justify-content:center;color:white;">
         <?php if (basename($_SERVER['PHP_SELF'], '.php') != "register"){
- ?><a href="views/register.php" style="text-decoration:none;color:white;">Register your brand</a><?php } ?>
+ ?><a href="views/register.php"><button class="btn btn-primary">Register your brand !</button></a> <?php } ?>
     </div>
     <div class="footer-social full-footer__social" data-v-186a190d>
         <ul class="footer-social__list">
@@ -39,9 +39,7 @@
                     </span></a></li>
             <li class="footer-social__item"><a href="" target="_blank" rel="noreferrer" data-track-id="footer" data-test-id="footer-social__link" class="footer-social__link link link--as-a link--color-secondary" data-v-b4e44ddc><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon icon--icon-blog icon--size-m" data-v-16fce65c data-v-16fce65c>
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12.015C1 5.932 5.858 1 11.85 1 17.843 1 22.7 5.932 22.7 12.015c0 6.084-4.857 11.015-10.85 11.015C5.858 23.03 1 18.1 1 12.015zm6.637-.113c.445-.159.71-.65.71-1.125 0-.839-.65-1.368-1.768-1.368H4.147v5.136H6.73c1.156 0 1.843-.573 1.843-1.427 0-.551-.31-1.08-.936-1.216zm1.548-2.72v5.364h1.231V9.183h-1.23zm3.89 1.602c-1.163 0-2.016.823-2.016 1.926 0 1.118.853 1.934 2.016 1.934 1.156 0 2.01-.816 2.01-1.934 0-1.103-.854-1.926-2.01-1.926zm5.265.098v.181a1.81 1.81 0 00-1.005-.279c-.99 0-1.82.748-1.82 1.866 0 .99.83 1.767 1.82 1.767.408 0 .733-.098 1.005-.264v.438c0 .498-.325.755-.74.755-.454 0-.71-.211-.77-.551h-1.21c.061.951.87 1.586 1.98 1.586 1.148 0 1.963-.665 1.963-1.813v-3.686H18.34zm-11.957-.43c.49 0 .748.173.748.498 0 .333-.265.574-.748.574h-.96v-1.072h.96zm.181 3.036h-1.14v-1.035h1.163c.476 0 .74.182.74.499 0 .302-.234.536-.763.536zm6.511.136c-.521 0-.868-.385-.868-.906 0-.506.347-.907.868-.907.514 0 .861.4.861.907 0 .52-.347.906-.86.906zm4.51-.181c-.499 0-.87-.393-.87-.793 0-.53.371-.861.87-.861.264 0 .52.075.755.34v.966a.954.954 0 01-.756.348z" fill="currentColor" data-v-16fce65c data-v-16fce65c></path>
-                    </svg> <span class="sr-only" data-v-b4e44ddc>
-                        blog
-                    </span></a></li>
+                    </svg></a></li>
         </ul>
         <p class="footer-social__legal">Developed by Team Morse Coders.</p>
     </div>

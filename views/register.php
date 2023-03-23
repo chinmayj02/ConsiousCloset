@@ -35,13 +35,6 @@
 
         <label for="gstno">GST Number :-</label>
 		<input type="text" id="gstno" name="gstno" placeholder="GST Number" >
-
-		<label for="password">Password</label>
-		<input type="password" id="password" name="password" placeholder="Password" >
-
-		<label for="confirm_password">Confirm Password</label>
-		<input type="password" id="password" name="password" placeholder="Confirm Password">
-
         <hr>
         <label style="text-align:left;">Certifications :</label>
         <label >1.Global Organic Textile Standard (G.O.T.S):-</label>
@@ -54,7 +47,7 @@
         <input type="text" name="CN4" placeholder="Certificate Number">
         <label >5.Blue Sign (B.S):-</label>
         <input type="text" name="CN5" placeholder="Certificate Number">
-        <button class="btn btn-success"type="submit" name="submit" value="sumbit">Submit</button>
+        <button class="btn btn-success button_sub"type="submit" name="submit" value="sumbit">Submit</button>
     </form>
     </section>
     </div>
