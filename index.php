@@ -19,74 +19,78 @@
         <?php require "controllers/includes/header.php" ?>
         <section class="above-fold-section above-fold-section--video-closed">
             <div class="home_section">
-            <div class="above-fold-section__content">
-                <div class="above-fold-section__search-install">
-                    <!-- heading -->
-                    <h1 class="above-fold-section__heading heading heading--h1">
-                        A better planet with every thread
-                    </h1>
-                    <!-- sub-heading -->
-                    <h2 class="above-fold-section__description heading heading--h2">
-                        Join the sustainable fashion movement and make a positive impact 
-                        on the planet through your wardrobe choices
-                    </h2>
-                </div>
-                <div class="home_section_pic">
-                    <img src="images/pic1.jpg" alt="Image1">
-                    <img src="images/pic2.jpg" alt="Image2">
-                    <img src="images/pic3.jpg" alt="Image3">
+                <div class="above-fold-section__content">
+                    <div class="above-fold-section__search-install">
+                        <!-- heading -->
+                        <h1 class="above-fold-section__heading heading heading--h1">
+                            A better planet with every thread
+                        </h1>
+                        <!-- sub-heading -->
+                        <h2 class="above-fold-section__description heading heading--h2">
+                            Join the sustainable fashion movement and make a positive impact
+                            on the planet through your wardrobe choices
+                        </h2>
+                    </div>
+                    <div class="home_section_pic">
+                        <div class="pic1">
+                            <img src="images/pic1.jpg" style="height:100%;width:100%;" alt="Image1">
+                        </div>
+                        <div class="pic2">
+                            <img src="images/pic2.jpg" style="height:100%;width:100%;" alt="Image2">
+                            <img src="images/pic3.jpg" style="height:100%;width:100%;" alt="Image3">
+                        </div>
+                    </div>
                 </div>
             </div>
-            </div> 
         </section>
         <!-- store buttons -->
         <section class="section-wrapper extension-section section-wrapper--default" id="store_section">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
                     <div class="extension-section__slides">
-                        <div >
+                        <div>
                             <!-- <img class="thrift-image" src="images/markus-winkler-PQmXUxmfR44-unsplash.jpg"></div> -->
-                    </div>
-                    <div class="extension-section__text">
-                        <div class="section-header extension-section__header">
-                            
-                            <h3 class="section-header__subtitle">
-                                Make the choice for a better future
-                            </h3>
                         </div>
-                        <div class="extension-section__contents" style="width:300%;transform:translateX(0%);">
-                            <div class="extension-section__content">
-                                <div class="extension-section__title">
-                                    Add the extension for quick searches
-                                </div>
-                                <p class="extension-section__description">
-                                    No need to visit the Ecosia website. Plant trees with searches typed
-                                    directly into your address bar or the search bar shown on a new tab.
-                                </p>
+                        <div class="extension-section__text">
+                            <div class="section-header extension-section__header">
+
+                                <h3 class="section-header__subtitle">
+                                    Make the choice for a better future
+                                </h3>
                             </div>
-                            <div class="extension-section__content">
-                                <div class="extension-section__title">
-                                    Watch your impact grow
+                            <div class="extension-section__contents" style="width:300%;transform:translateX(0%);">
+                                <div class="extension-section__content">
+                                    <div class="extension-section__title">
+                                        Add the extension for quick searches
+                                    </div>
+                                    <p class="extension-section__description">
+                                        No need to visit the Ecosia website. Plant trees with searches typed
+                                        directly into your address bar or the search bar shown on a new tab.
+                                    </p>
                                 </div>
-                                <p class="extension-section__description">
-                                    Track your tree-planting progress and explore your impact on ecosystems and
-                                    communities.
-                                </p>
-                            </div>
-                            <div class="extension-section__content">
-                                <div class="extension-section__title">
-                                    Make greener choices faster
+                                <div class="extension-section__content">
+                                    <div class="extension-section__title">
+                                        Watch your impact grow
+                                    </div>
+                                    <p class="extension-section__description">
+                                        Track your tree-planting progress and explore your impact on ecosystems and
+                                        communities.
+                                    </p>
                                 </div>
-                                <p class="extension-section__description">
-                                    See which companies lead to a greener world.
-                                </p>
+                                <div class="extension-section__content">
+                                    <div class="extension-section__title">
+                                        Make greener choices faster
+                                    </div>
+                                    <p class="extension-section__description">
+                                        See which companies lead to a greener world.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-        
+
         <!-- our initiative -->
         <section class="section-wrapper projects-section section-wrapper--dark-green" id="our_initiative">
             <div class="section-wrapper__content">
@@ -110,7 +114,7 @@
                         </h4>
                         <p class="projects-section__project-description">
                             Your trees in Brazil protect thousands of endangered plants and animals.
-                        </p> <a type="button" role="button" href="https://blog.ecosia.org/brazil/" target="_blank" rel="noopener" data-test-id="project-country-brazil" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start">  <span data-test-id="button-text" class="button__text">
+                        </p> <a type="button" role="button" href="https://blog.ecosia.org/brazil/" target="_blank" rel="noopener" data-test-id="project-country-brazil" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start"> <span data-test-id="button-text" class="button__text">
                                 Learn more
                                 <span class="sr-only">
                                     about trees planted in Brazil
@@ -128,7 +132,7 @@
                         <p class="projects-section__project-description">
                             By planting trees in Burkina Faso, you restore desertified land to its former
                             fertility.
-                        </p> <a type="button" role="button" href="https://blog.ecosia.org/burkina-faso/" target="_blank" rel="noopener" data-test-id="project-country-burkinafaso" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start">  <span data-test-id="button-text" class="button__text">
+                        </p> <a type="button" role="button" href="https://blog.ecosia.org/burkina-faso/" target="_blank" rel="noopener" data-test-id="project-country-burkinafaso" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start"> <span data-test-id="button-text" class="button__text">
                                 Learn more
                                 <span class="sr-only">
                                     about trees planted in Burkina Faso
@@ -146,7 +150,7 @@
                         <p class="projects-section__project-description">
                             In Indonesia, your searches bring back forests on former palm oil plantations while
                             creating alternative sources of income.
-                        </p> <a type="button" role="button" href="https://blog.ecosia.org/indonesia/" target="_blank" rel="noopener" data-test-id="project-country-indonesia" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start">  <span data-test-id="button-text" class="button__text">
+                        </p> <a type="button" role="button" href="https://blog.ecosia.org/indonesia/" target="_blank" rel="noopener" data-test-id="project-country-indonesia" as="a" variant="outline" class="button project-section__project-link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start"> <span data-test-id="button-text" class="button__text">
                                 Learn more
                                 <span class="sr-only">
                                     about trees planted in Indonesia
@@ -171,7 +175,7 @@
                             Our monthly financial reports show exactly how much ad revenue your searches have
                             brought in, and how much we are spending on trees.
                         </div>
-                    </div> <a type="button" role="button" href="https://ecosia.co/finreportsen" target="_blank" rel="noopener" data-test-id="financial-report-section-link" as="a" variant="outline" class="button financial-report-section__link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start">  <span data-test-id="button-text" class="button__text">
+                    </div> <a type="button" role="button" href="https://ecosia.co/finreportsen" target="_blank" rel="noopener" data-test-id="financial-report-section-link" as="a" variant="outline" class="button financial-report-section__link base-button base-button--variant-outline base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start"> <span data-test-id="button-text" class="button__text">
                             See our financial reports
                         </span></a>
                     <div class="financial-report-section__report">
@@ -206,7 +210,7 @@
                             <div data-test-id="tree-counter-description" class="tree-counter-section__description">
                                 trees planted by the Ecosia community
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

@@ -36,7 +36,21 @@ html {
     color: #fff;
     color: var(--color-text-primary)
 }
-
+.above-fold-section__content{
+    display: flex;
+    width: 100% !important;
+}
+.home_section_pic{
+    width: 100%;
+    display: flex;
+}
+.home_section{
+width: 100%;
+}
+.pic2{
+    display: flex;
+    flex-direction: column;
+}
 .indexpage {
     min-width: 320px
 }
