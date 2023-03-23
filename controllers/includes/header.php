@@ -1,4 +1,4 @@
-<?php if (basename($_SERVER['PHP_SELF'], '.php') == "index"){
+<?php if (basename($_SERVER['PHP_SELF'], '.php') == "index" || basename($_SERVER['PHP_SELF'], '.php') == "product-categories"){
     $img_url="images/logo.png";
 }
 else
