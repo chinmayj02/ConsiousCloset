@@ -22,7 +22,7 @@
     <br>
     <div class="signupform" style="background-color:#1a1a1a;margin-bottom:0px;height:1350px;color:#1a1a1a;position:relative;">
     <br><br>
-	<h1 style="text-align:center;color:#fff;">Register</h1>
+	<h1 style="text-align:center;color:#fff;">Application</h1>
 	<form class="register_form" action="../controllers/register_controller.php" method="POST" onsubmit="return validateForm()" style="padding-bottom:100px;">
 		<label for="full_name">Brand Name :-</label>
 		<input type="text" id="full_name" name="full_name" placeholder="Full Name" >
@@ -44,17 +44,17 @@
 
         <hr>
         <label style="text-align:left;">Certifications :</label>
-        <label >1.Global Organic Textile Standard (G.O.A.T.S):-</label>
-        <input type="text" placeholder="CN1">
+        <label >1.Global Organic Textile Standard (G.O.T.S):-</label>
+        <input type="text" name="CN1" placeholder="Certificate Number">
         <label >2.Global Recyled Standard (G.R.S):-</label>
-        <input type="text" placeholder="CN2">
+        <input type="text" name="CN2" placeholder="Certificate Number">
         <label >3.OEKO-TEX (O.T):-</label>
-        <input type="text" placeholder="CN3">
+        <input type="text" name="CN3" placeholder="Certificate Number">
         <label >4.Credle to Cradle (C.T.C):-</label>
-        <input type="text" placeholder="CN4">
+        <input type="text" name="CN4" placeholder="Certificate Number">
         <label >5.Blue Sign (B.S):-</label>
-        <input type="text" placeholder="CN5">
-        <input type="submit" class="button_sub" value="submit">
+        <input type="text" name="CN5" placeholder="Certificate Number">
+        <button class="btn btn-success"type="submit" name="submit" value="sumbit">Submit</button>
     </form>
     </section>
     </div>
