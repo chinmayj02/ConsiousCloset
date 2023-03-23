@@ -1,5 +1,5 @@
 <header aria-label="Main header" class="main-header__content">
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color:#1a1a1a;">
+    <nav class="navbar fixed-top navbar-expand-lg" style="background-color:transparent;">
         <div class="container-fluid">
             <div class="brand">
                 <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo">
@@ -12,9 +12,6 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <div class="navitems">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#store_section">Store</a>
                         </li>
