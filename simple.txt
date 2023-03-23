@@ -49,7 +49,7 @@
             <div class="Cards">
 
                 <div class="card1">
-                    <a href="product-categories.php"><button id="card-1"  class="btn btn-success"><span class="b1text">Store</span></button></a>
+                    <button id="card-1" class="btn btn-success"><span class="b1text">Store</span></button>
                 </div>
 
                 <div class="card2">
@@ -64,8 +64,8 @@
         <section class="section-wrapper projects-section section-wrapper--dark-green" id="our_initiative">
             <div class="section-wrapper__content">
                 <div class="section-header projects-section__header section-header--center">
-                    <h2 class="section-header__title section-header__title--variant" style="margin-left: -204px;margin-top: 60px;font-size: 35px;">
-                        Why Sustainable Fashion?
+                    <h2 class="section-header__title section-header__title--variant">
+                        why sustainable fashion?
                     </h2>
 
                 </div>
@@ -98,7 +98,7 @@
                             </svg>
                         </div>
                         <h4 class="projects-section__project-title">
-                            To produce 1 kg of fabric over 200L of water is consumed: washing the fiber, bleaching,
+                            to produce 1 kg of fabric over 200L of water is consumed: washing the fiber, bleaching,
                             dyeing and then cleaning the finished product.
                         </h4>
 
@@ -139,8 +139,6 @@
         </section>
 
         <div class="stats" style="background-color: #1a1a1a;">
-            
-        
             <div class="text1">
                 <h2 class="section-header__title" id="T1">
                     Some statistics to provide perspective
@@ -165,11 +163,8 @@
             </div>
         </div>
         <section class="section-wrapper join-section section-wrapper--light-green">
-         
-        <div class="section-wrapper__content">
-            
+            <div class="section-wrapper__content">
                 <div class="join-section--content">
-                   
                     <h2 data-test-id="join-section-heading" class="join-section__heading" style="font-size: 35px;">
                         A commitment to sustainability shouldn't just be buzzwords and vague slogans.<br>
                         Let us join hands and shape our future
