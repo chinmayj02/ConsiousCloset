@@ -1,5 +1,5 @@
 <header aria-label="Main header" class="main-header__content">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container-fluid">
             <div class="brand">
                 <a class="navbar-brand" href="#"><img src="../images/logo.png" alt="Logo">
@@ -16,15 +16,13 @@
                             <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Store</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Thrift Store</a>
-                        <li>
-                            <a class="nav-link" href="#">Our Initiative</a>
+                            <a class="nav-link" href="#store_section">Store</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#our_initiative">Our Initiative</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#aboutus">About us</a>
                         </li>
                     </ul>
                 </div>

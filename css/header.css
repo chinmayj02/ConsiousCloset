@@ -12,6 +12,12 @@
 .navitems{
     margin-left: auto;
 }
+.navbar-nav li a::after {
+    color: #fff;
+  }
+  .navbar-nav li a::before {
+    color: #fff;
+  }
   
 
 .main-header__content>* {

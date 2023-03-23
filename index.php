@@ -18,6 +18,7 @@
     <div class="indexpage">
         <?php require "controllers/includes/header.php" ?>
         <section class="above-fold-section above-fold-section--video-closed">
+            <div class="home_section">
             <div class="above-fold-section__content">
                 <div class="above-fold-section__search-install">
                     <!-- heading -->
@@ -30,10 +31,16 @@
                         on the planet through your wardrobe choices
                     </h2>
                 </div>
+                <div class="home_section_pic">
+                    <img src="images/pic1.jpg" alt="Image1">
+                    <img src="images/pic2.jpg" alt="Image2">
+                    <img src="images/pic3.jpg" alt="Image3">
+                </div>
+            </div>
             </div> 
         </section>
         <!-- store buttons -->
-        <section class="section-wrapper extension-section section-wrapper--default">
+        <section class="section-wrapper extension-section section-wrapper--default" id="store_section">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
                     <div class="extension-section__slides">
@@ -81,7 +88,7 @@
         </section>
         
         <!-- our initiative -->
-        <section class="section-wrapper projects-section section-wrapper--dark-green">
+        <section class="section-wrapper projects-section section-wrapper--dark-green" id="our_initiative">
             <div class="section-wrapper__content">
                 <div class="section-header projects-section__header section-header--center">
                     <h2 class="section-header__title section-header__title--variant">
@@ -148,84 +155,7 @@
                 </ul>
             </div>
         </section>
-        <!-- <section class="section-wrapper before-after-section section-wrapper--dark-green">
-            <div class="section-wrapper__content">
-                <div class="before-after-section__content">
-                    <div class="before-after-section__content-text">
-                        <div class="section-header before-after-section__header">
-                            <h2 class="section-header__title section-header__title--variant">
-                                Our tree planting approach
-                            </h2>
-                            <h3 class="section-header__subtitle section-header__subtitle--variant">
-                                We restore and protect biodiversity hotspots
-                            </h3>
-                        </div>
-                        <div class="before-after-section__text">
-                            Instead of monocultures, we grow over 500 different native species where they are
-                            needed most. Always shoulder-to-shoulder with local communities.
-                        </div>
-                    </div>
-                    <div class="before-after-section__content-picture">
-                        <div class="before-after-section__picture">
-                            <div class="before-after-section__picture--after">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- <section class="section-wrapper map-section section-wrapper--dark-green">
-            <div class="section-wrapper__content">
-                <div class="section-header map-section__title section-header--center">
-                    <h2 class="section-header__title section-header__title--variant">
-                        Trees planted by the Ecosia community
-                    </h2> 
-                </div> 
-                <div data-test-id="map-section-background" class="map-section__background">
-                    <div class="map-section__map"></div>
-                </div>
-                <div class="map-section__statistics-wrapper">
-                    <ul class="statistics map-section__statistics">
-                        <li class="statistics__item">
-                            <p class="statistics__title">
-                                20 million
-                            </p>
-                            <p class="statistics__description">
-                                people using Ecosia
-                            </p>
-                        </li>
-                        <li class="statistics__item">
-                            <p class="statistics__title">
-                                900+
-                            </p>
-                            <p class="statistics__description">
-                                species
-                            </p>
-                        </li>
-                        <li class="statistics__item">
-                            <p class="statistics__title">
-                                35+
-                            </p>
-                            <p class="statistics__description">
-                                countries involved
-                            </p>
-                        </li>
-                        <li class="statistics__item">
-                            <p class="statistics__title">
-                                70+
-                            </p>
-                            <p class="statistics__description">
-                                active projects
-                            </p>
-                        </li>
-                    </ul>
-                </div> <a type="button" role="button" href="https://blog.ecosia.org/tag/where-does-ecosia-plant-trees" target="_blank" data-test-id="map-section-projects-link" as="a" class="button map-section__link base-button base-button--variant-solid-white base-button--size-m base-button--elevation-0 base-button--text-size-m button button--icon-position-start">  <span data-test-id="button-text" class="button__text">
-                        Discover all projects
-                    </span></a>
-            </div>
-        </section> -->
-        <section class="section-wrapper financial-report-section section-wrapper--gray">
+        <section class="section-wrapper financial-report-section section-wrapper--gray" id="aboutus">
             <div class="section-wrapper__content">
                 <div class="financial-report-section__slot">
                     <div class="financial-report-section__content">
@@ -259,76 +189,7 @@
                 </div>
             </div>
         </section>
-        <!-- <section class="section-wrapper claims-values-section section-wrapper--gray">
-            <div class="section-wrapper__content">
-                <div class="section-header claims-values-section__header section-header--center">
-                    <h2 class="section-header__title">
-                        Why choose Ecosia?
-                    </h2>
-                    <h3 class="section-header__subtitle section-header__subtitle--large">
-                        What we stand for
-                    </h3>
-                </div>
-                <ol data-test-id="claims-section-claims" class="claims-values-section__claims">
-                    <li class="claims-values-section__claim">
-                        <div class="claims-values-section__image-wrapper">
-                            
-                        </div>
-                        <div class="claims-values-section__claim-content">
-                            <h4 class="claims-values-section__claim-title">
-                                100% of profits for the planet
-                            </h4>
-                            <p class="claims-values-section__claim-description">
-                                We use all our profits for climate action, with at least 80% financing
-                                tree-planting projects around the world.
-                            </p>
-                        </div>
-                    </li>
-                    <li class="claims-values-section__claim">
-                        <div class="claims-values-section__image-wrapper">
-                            
-                        </div>
-                        <div class="claims-values-section__claim-content">
-                            <h4 class="claims-values-section__claim-title">
-                                Your privacy comes first
-                            </h4>
-                            <p class="claims-values-section__claim-description">
-                                We don't create a profile of you or sell your personal details to advertisers.
-                                We want trees, not your data.
-                            </p>
-                        </div>
-                    </li>
-                    <li class="claims-values-section__claim">
-                        <div class="claims-values-section__image-wrapper">
-                            
-                        </div>
-                        <div class="claims-values-section__claim-content">
-                            <h4 class="claims-values-section__claim-title">
-                                Radically transparent
-                            </h4>
-                            <p class="claims-values-section__claim-description">
-                                Stay in the loop about our latest tree-planting projects, how much money we've
-                                made from your searches, and how we've spent it. No secrets, no greenwashing.
-                            </p>
-                        </div>
-                    </li>
-                    <li class="claims-values-section__claim">
-                        <div class="claims-values-section__image-wrapper">
-                            
-                        </div>
-                        <div class="claims-values-section__claim-content">
-                            <h4 class="claims-values-section__claim-title">
-                                Beyond neutral
-                            </h4>
-                            <p class="claims-values-section__claim-description">
-                                Our solar panels produce enough energy to power your searches twice over,
-                                meaning more renewables (and fewer fossil fuels) in the energy grid.
-                            </p>
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </section> -->
+
         <div data-test-id="wave-seperator" class="wave-seperator wave-seperator--variant-primary"></div>
         <section class="section-wrapper join-section section-wrapper--light-green">
             <div class="section-wrapper__content">
