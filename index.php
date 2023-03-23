@@ -47,8 +47,8 @@
         <section class="section-wrapper extension-section section-wrapper--default" id="store_section">
             <div class="section-wrapper__content">
                 <div class="extension-section__slot">
-                <div class="extension-section__slides">
-                    <div class="card1"></div>
+                <div class="extension-section__slides flex-side">
+                    <div class="card1" style="background-color:#fff"></div>
                     <div class="card2"></div>
                 </div>
                     <div class="extension-section__slides">
