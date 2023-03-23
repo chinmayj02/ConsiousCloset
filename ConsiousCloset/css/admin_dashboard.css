@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #2b303b;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav .user{
+    color: #707887;
+    display: flex;
+    gap: 10px;
+    margin-right: 5px;
+}
+
+.nav .username{
+    margin-left: 3px;
+}
+
+.nav .username p{
+    margin: 3px !important;
+    color: #fff;
+    font: 0.9em sans-serif;
+    vertical-align:middle ;
+}
+
+.nav .username p a{
+   text-decoration: none;
+   color: #fff;
+}
+
+.right-pane{
+    width: 100%;
+    height: calc(100% - 180px);
+    background: #212529;
+    position: relative;
+    padding-top:100px
+}
+
+.left-pane{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    z-index: 1;
+    background: #252932;
+    box-shadow: 0 5px 10px #00000080;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.left-pane ul{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-70%);
+    display: flex;
+    flex-direction: column;
+    font: 1em sans-serif;
+    font-weight: 100;
+    gap: 30px;
+
+}
+
+.left-pane ul a{
+    text-decoration: none;
+}
+
+.left-pane ul li{
+    list-style: none;
+    color: #707887;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.left-pane ul li:hover{
+    color: #019aff
+    
+}
+
+.icon-wrapper {
+    align-items: center;
+    background-color: #1e2229;
+    border-radius: 2px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    max-width: 40px;
+    min-width: 40px;
+    transition: color .25s ease-in-out;
+}
+
+.title{
+    position: absolute;
+    color: rgb(190, 190, 190);
+    left: 20px;
+    font: 1.5em sans-serif;
+}
+
+.right-div{
+    position: absolute;
+    height: calc(100% - 80px);
+    width: calc(100% - 240px);
+    right: 0;
+    top: 0;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+    z-index:2 ;
+    margin-top: 100px;
+}
+
+.row .indiv{
+    width: 25%;
+    background: #fff;
+    /* height: 90px; */
+    box-shadow: 0px 0px 10px #00000080;
+    border-radius: .25rem!important;
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
+.row div .icon{
+    background-color: #019aff!important;
+    height: 58px!important;
+    width: 58px!important;
+    color: #fff!important;
+    align-items: center!important;
+    justify-content: center!important;
+    display: inline-flex!important;
+    border-radius: .25rem!important;
+
+}
+
+.amounts .indiv{
+    top: 200px;
+    background-color: #272b35;
+    font: 1em sans-serif;
+}
+
+.inner-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+}
+
+.amounts .inner-text h6,.amounts .inner-text p,
+.counts .inner-text h6,.counts .inner-text p{
+    margin: 0 !important;
+}
+
+.counts .indiv{
+    font: 1em sans-serif;
+}
+
+
+.counts ._1 {
+    background-color: #2ca02c;
+    color: #ffffff;
+  }
+  .counts ._2 {
+    background-color: #9467bd;
+    color: #ffffff;
+  }
+  .counts ._3 {
+    background-color: #ff7f0e;
+    color: #ffffff;
+  }
+  .counts ._4 {
+    background-color: #d62728;
+    color: #ffffff;
+  }
+
+.right-pane table{
+    /* margin-top: 100px; */
+    width: 100%;
+    color: #707887;
+    font: 1em sans-serif;
+}
+
+.right-pane thead{
+    color: #ffffff;
+    font: 0.9em sans-serif;
+    /* text-align: left; */
+}
+
+.right-pane tr{
+    height: 40px;
+}
+
+.right-div .create{
+    border-radius: 2px;
+    background-color: #2ca02c;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    color: rgb(190, 190, 190);
+    right: 20px !important;
+    font: 1em sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.right-div .edit_btn{
+    text-decoration: none;
+    color: #019aff;
+    
+}
+.right-div .del_btn{
+    text-decoration: none;
+    color: #d62728;
+    
+}
+  
