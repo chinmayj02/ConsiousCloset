@@ -3,6 +3,16 @@
     position: relative;
     z-index: 2
 }
+.navbar-nav li a:hover {
+    color: #5dd25e;
+  }
+.navbar-nav li a {
+    color: #fff;
+  }
+.navitems{
+    margin-left: auto;
+}
+  
 
 .main-header__content>* {
     flex-shrink: 0
