@@ -12,7 +12,8 @@
     <input type="text" id="myInput" name="gotssearch" size="10" placeholder="Free Text (e.g. licence number, name of company)">
     <input type="submit" style="width:140px" value="Validate" >
 </form>
-
+<!-- <iframe id="theFrame" src="https://global-standard.org/find-suppliers-shops-and-inputs/certified-suppliers/database/search/" frameborder="0"> -->
+</iframe>
 <script>
 // Get the form element by its ID
 const form = document.getElementById('myForm');
@@ -49,6 +50,6 @@ fetch(externalWebsite)
 });
 
 
-<script>
+</script>
 </body>
 </html>

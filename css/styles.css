@@ -37,19 +37,42 @@ html {
     color: var(--color-text-primary)
 }
 .above-fold-section__content{
-    display: flex;
+    display: flex !important;
     width: 100% !important;
 }
 .home_section_pic{
     width: 100%;
     display: flex;
 }
+
+.home_section_pic img:nth-child(1){
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.home_section_pic .pic2 img:nth-child(1){
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.home_section_pic img:nth-child(2){
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
 .home_section{
 width: 100%;
 }
+.pic1{
+    
+    width: 100%;
+}
+
 .pic2{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .indexpage {
     min-width: 320px
@@ -783,7 +806,9 @@ body.no-scroll {
 }
 
 .heading--h2 {
-    font-size: 20px
+    font-size: 20px;
+    /* font-weight:light; */
+
 }
 
 @media only screen and (min-width:768px) {
@@ -2235,7 +2260,9 @@ body.no-scroll {
 @media only screen and (min-width:992px) {
     .above-fold-section__content {
         width: 50%;
-        padding-top: 100px
+        padding-top: 150px;
+        padding-right:130px;
+        padding-left:130px;
     }
 }
 
@@ -2456,7 +2483,7 @@ body.no-scroll {
 }
 
 .extension-section__slot {
-    display: grid;
+    display: flex;
     grid-gap: 0 40px;
     gap: 0 40px;
     overflow-x: hidden;
@@ -2476,7 +2503,7 @@ body.no-scroll {
     overflow: hidden;
     margin: 24px auto 0;
     width: 100%;
-    padding-bottom: 100%;
+    /* padding-bottom: 100%; */
     position: relative
 }
 
@@ -3081,8 +3108,8 @@ body.no-scroll {
     display: grid;
     grid-template-areas: "content" "chart" "button";
     grid-template-columns: 1fr;
-    grid-gap: 0 40px;
-    gap: 0 40px
+    /* grid-gap: 0 40px;
+    gap: 0 40px */
 }
 
 @media only screen and (min-width:992px) {
@@ -3171,6 +3198,7 @@ body.no-scroll {
     display: flex;
     align-items: center;
     right: 10%
+    
 }
 
 .financial-report-section__total {
