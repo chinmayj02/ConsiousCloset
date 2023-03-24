@@ -97,8 +97,8 @@ if (isset($_GET['edit'])) {
             <div align="center"  class="title">Pending Approvals</div >
 
             <?php  $q=mysqli_query($db, "SELECT * FROM brands where not approval")?>
-            <table style="margin-left:210px;width: 80vw;">
-            <thead>
+            <table style="margin-left:210px;width: 80vw; border: 1px solid black;">
+            <thead style="border: 1px solid black;">
                 <tr>
                     <th>Name</th>
                     <th>Email</th>
@@ -114,7 +114,7 @@ if (isset($_GET['edit'])) {
             </thead>
             <?php while ($row = mysqli_fetch_array($q) ){ 
                 $count=0;?> 
-            <tr>
+            <tr style="border: 1px solid black;">
                 <td>
                 <?php echo $row['name']; ?>
                 </td>
@@ -126,30 +126,30 @@ if (isset($_GET['edit'])) {
                 </td>
                 <td>
                 <?php if (!empty($row['CN1'])){ ?>
-                    <img class="tick" src="../images/check.png">
+                    <?php echo $row['CN1']; ?>
                     <?php $count++;}?>
                 </td>
                 <td>
                 <?php if (!empty($row['CN2'])){ ?>
-                    <img class="tick" src="../images/check.png">
+                    <?php echo $row['CN2']; ?>
                     <?php $count++;}?>
                     
                 </td>
                 <td>
                 <?php if (!empty($row['CN3'])){ ?>
-                    <img class="tick" src="../images/check.png">
+                    <?php echo $row['CN3']; ?>
                     <?php $count++;}?>
                     
                 </td>
                 <td>
                 <?php if (!empty($row['CN4'])){ ?>
-                    <img class="tick" src="../images/check.png">
+                    <?php echo $row['CN4']; ?>
                     <?php $count++;}?>
                     
                 </td>
                 <td>
                 <?php if (!empty($row['CN5'])){ ?>
-                    <img class="tick" src="../images/check.png">
+                    <?php echo $row['CN5']; ?>
                     <?php $count++;}
                     ?>
                     
