@@ -205,6 +205,10 @@ section{
     font: 1em sans-serif;
 }
 
+.right-pane table, tr, td{
+    border:1px solid black;
+}
+
 .right-pane thead{
     color: #ffffff;
     font: 0.9em sans-serif;
