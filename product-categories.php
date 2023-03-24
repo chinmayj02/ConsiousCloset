@@ -38,6 +38,9 @@ h1{
 
 .card-body a{
     text-decoration:none;
+    background:#000000;
+    padding:10px;
+    width:10px;
 }
 
 .heart{
