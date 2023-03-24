@@ -31,7 +31,7 @@
 		<input type="email" id="email" name="email" placeholder="Email" >
 
 		<label for="address">Address</label>
-		<input type="text" id="address" name="address" placeholder="Username" >
+		<input type="text" id="address" name="address" placeholder="Address" >
 
         <label for="gstno">GST Number</label>
 		<input type="text" id="gstno" name="gstno" placeholder="GST Number" >
@@ -47,7 +47,7 @@
         <input type="text" name="CN4" placeholder="Certificate Number">
         <label >5.Blue Sign (B.S):-</label>
         <input type="text" placeholder="Certificate Number">
-        <button type="submit" class="btn btn-success button_sub" vaule="submit">Submit</button>
+        <button type="submit" class="btn btn-success button_sub" name="submit" value="submit">Submit</button>
     </form>
     </section>
     </div>

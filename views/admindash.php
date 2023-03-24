@@ -97,7 +97,8 @@ if (isset($_GET['edit'])) {
             <div align="center"  class="title">Pending Approvals</div >
 
             <?php  $q=mysqli_query($db, "SELECT * FROM brands where not approval")?>
-            <table style="margin-left:210px;width: 80vw; border: 1px solid black;">
+            <table style="    color:#fff !important;
+margin-left:210px;width: 80vw; border: 1px solid black;">
             <thead style="border: 1px solid black;">
                 <tr>
                     <th>Name</th>
