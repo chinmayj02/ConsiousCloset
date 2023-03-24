@@ -1,7 +1,7 @@
 <?php if(isset($_GET['cat'])){
     $cat = $_GET['cat'];
     if ($cat != "") {
-        $conn=mysqli_connect("localhost","root","","consciousaparel")or die(mysqli_error($conn));
+        $conn=mysqli_connect("localhost","root","","greencloset")or die(mysqli_error($conn));
         $query = mysqli_query($conn, "SELECT * FROM products WHERE category=$cat");
     }
 
