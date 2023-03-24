@@ -4,7 +4,7 @@
     <div class="full-footer__content" data-v-186a190d style="justify-content:center;color:white;">
         <?php if (basename($_SERVER['PHP_SELF'], '.php') != "register"){
  ?><a href="views/register.php"><button class="btn btn-success">Register your brand !</button></a> <?php } ?>
- <a href="views/login.php"><button class="btn btn-success">Login In</button></a>
+ <a href="views/login.php"><button class="btn btn-success">Log In</button></a>
     </div>
     <div class="footer-social full-footer__social" data-v-186a190d>
         <ul class="footer-social__list">

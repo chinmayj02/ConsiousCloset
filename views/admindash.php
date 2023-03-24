@@ -1,10 +1,21 @@
 <?php include('../controllers/admindash_php_code.php'); ?>
 <?php
-// if (isset($_GET['edit'])) {
-//     $purchase_id = $_GET['edit'];
-//     $update = true;
-//     $record = mysqli_query($db, "SELECT * FROM purchases WHERE purchase_id=$purchase_id");
+if (isset($_GET['edit'])) {
+    $bid = $_GET['edit'];
+    $count=$_GET['count'];
+    $rank=0;
+                    if($count>3){
+                        $rank=1;
+                    }
+                    else if($count<=3 && $count>1){
+                        $rank=2;
+                    }
+                    else $rank=3;
 
+                    mysqli_query($db, "update brands set approval=true,rank='$rank' where bid='$bid'");
+
+                    
+}
 //     // if (count($record) == 1 ) {
     $n = mysqli_fetch_array(mysqli_query($db, "SELECT * FROM brands"));
 
@@ -80,15 +91,13 @@
                 </div>
         </div>
         <div class="right-pane">
-            <div class="right-div">
+            <!-- <div class="right-div">
                 <h3 class="title">Pending Approvals</h3>
-                
-        </div>
-        
-        <?php $result = mysqli_fetch_array(mysqli_query($db, "SELECT * FROM brands where not approval")); ?>
-        
+            </div> -->
+            <div align="center"  class="title">Pending Approvals</div >
 
-        <table>
+            <?php  $q=mysqli_query($db, "SELECT * FROM brands where not approval")?>
+            <table style="margin-left:210px;width: 80vw;">
             <thead>
                 <tr>
                     <th>Name</th>
@@ -99,10 +108,12 @@
                     <th>(O.T)</th>
                     <th>(C.T.C)</th>
                     <th>(B.S)</th>
+                    <th>Approve</th>
+
                 </tr>
             </thead>
-
-            <?php while ($row = $result) { ?> 
+            <?php while ($row = mysqli_fetch_array($q) ){ 
+                $count=0;?> 
             <tr>
                 <td>
                 <?php echo $row['name']; ?>
@@ -114,43 +125,43 @@
                 <?php echo $row['gstno']; ?>
                 </td>
                 <td>
-                <?php if (isset($row['CN1'])){ ?>
+                <?php if (!empty($row['CN1'])){ ?>
                     <img class="tick" src="../images/check.png">
-                    <?php }?>
+                    <?php $count++;}?>
                 </td>
                 <td>
-                <?php if (isset($row['CN2'])){ ?>
+                <?php if (!empty($row['CN2'])){ ?>
                     <img class="tick" src="../images/check.png">
-                    <?php }?>
+                    <?php $count++;}?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN3'])){ ?>
+                <?php if (!empty($row['CN3'])){ ?>
                     <img class="tick" src="../images/check.png">
-                    <?php }?>
+                    <?php $count++;}?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN4'])){ ?>
+                <?php if (!empty($row['CN4'])){ ?>
                     <img class="tick" src="../images/check.png">
-                    <?php }?>
+                    <?php $count++;}?>
                     
                 </td>
                 <td>
-                <?php if (isset($row['CN5'])){ ?>
+                <?php if (!empty($row['CN5'])){ ?>
                     <img class="tick" src="../images/check.png">
-                    <?php }?>
+                    <?php $count++;}
+                    ?>
                     
                 </td>
                 <td>
-                    <a href="invoice_view.php?update=<?php echo '%27' ?><?php echo ($row['bid']); ?><?php echo '%27' ?>"
+                    <a href="admindash.php?edit=<?php echo ($row['bid']); ?>&count=<?php echo $count; ?>"
                         class="del_btn">Approve</a>
                 </td>
             </tr>
             <?php }?>
 
-        </table>
-            </div>
+            </table>
         </div>
         <div class="left-pane">
             <img src="../images/logo.png" alt="" class="logo" style="width:70px">
