@@ -30,9 +30,9 @@ $img_url="../images/logo.png";
                         <li>
                             <a class="nav-link" href="#our_initiative">Our Initiative</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a class="nav-link" href="#aboutus">About us</a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

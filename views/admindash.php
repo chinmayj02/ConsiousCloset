@@ -164,7 +164,7 @@ if (isset($_GET['edit'])) {
             </table>
         </div>
         <div class="left-pane">
-            <img src="../images/logo.png" alt="" class="logo" style="width:70px">
+           <a href="../index.php"> <img src="../images/logo.png" alt="" class="logo" style="width:70px"></a>
             <ul>
                 <a href="./client_dashboard.php">
                     <li><span class="icon-wrapper" active><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"

@@ -18,7 +18,7 @@
             @import url('https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap');
 
 body{
-  background-color: #1a1a1a;
+  background-color: #1a1a1a !important;
 }
 
 .container{
@@ -30,13 +30,14 @@ h1, .card-title, a, #toast{
 }
 
 h1{
-  color: #5dd25e;
+  color: #5dd25e !important;
 }
 
 .card{
   /* box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32); */
   border-radius: 15px;
   transition: transform .2s;
+
 }
 
 .card-body{
@@ -104,7 +105,7 @@ h1{
   margin-top: 0px;
   margin-right: 3px;
   background-color: #fff;
-  color: #5C7CFA;
+  color: #5C7CFA !important;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   text-align: center;
@@ -127,8 +128,8 @@ h1{
   top: 0;
   left: 80%;
   transform:translate(-50%);
-  background-color: #EFF2FF;
-  color: #76777E;
+  background-color: #EFF2FF !important;
+  color: #76777E !important;
   padding: 1px;
   border-radius: 8px;
   text-align:center;
@@ -171,7 +172,7 @@ a{
         <div class="row">
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-                <img onclick="redirectTo('pants')" src="./images/jeans.jpg" class="first-image">
+                <img onclick="redirectTo('pants')" src="./images/jeans.jpg" class="first-image" style="height: 428.74;">
                 <div class="card-body">
                     <center>
                         <a href="products.php?cat='pants'"><h5 class="card-title">Mens Jeans</h5></a>
