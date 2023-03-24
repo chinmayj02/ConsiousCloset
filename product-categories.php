@@ -35,6 +35,10 @@ h1{
   transition: all 1s ease-in-out;
 }
 
+.card-body a{
+    text-decoration:none;
+}
+
 .heart{
   color: #989898;
   margin-top: 15px;
@@ -172,7 +176,7 @@ a{
   <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">T-shirt</h5>
+    <a href="products.php?cat='tshirt'"><h5 class="card-title">T-shirt</h5></a>
     </center>
   </div>
 </div>
@@ -183,7 +187,7 @@ a{
   <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">shoes</h5>
+    <a href="products.php?cat='shoes'"><h5 class="card-title">shoes</h5></a>
     </center>
   </div>
 </div>

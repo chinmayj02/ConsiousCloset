@@ -171,10 +171,10 @@ a{
         <div class="row">
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-                <img onclick="redirectTo('pants')" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80   " class="first-image">
+                <img onclick="redirectTo('pants')" src="./images/jeans.jpg" class="first-image">
                 <div class="card-body">
                     <center>
-                        <a href="products.php?cat='pants'"><h5 class="card-title">Pants</h5></a>
+                        <a href="products.php?cat='pants'"><h5 class="card-title">Mens Jeans</h5></a>
                     </center>
                 </div>
             </div>
@@ -182,10 +182,10 @@ a{
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
             <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-        <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
+        <img src="./images/trackpant.jpg" class="first-image">
         <div class="card-body">
             <center>
-            <h5 class="card-title">T-shirt</h5>
+            <h5 class="card-title">Mens Trackpant</h5>
             </center>
         </div>
 </div>
@@ -193,10 +193,10 @@ a{
     <div class="col-lg-4">
     <div class="card" style="width: 18rem;"  onclick="redirectTo('shoes')">
       <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-  <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" class="first-image">
+  <img src="./images/shorts.jpg" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">shoes</h5>
+      <h5 class="card-title">Mens Shorts</h5>
     </center>
   </div>
 </div>
@@ -205,10 +205,10 @@ a{
   <div class="row">
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-                <img onclick="redirectTo('pants')" src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80   " class="first-image">
+                <img onclick="redirectTo('pants')" src="./images/leggings.jpg" class="first-image">
                 <div class="card-body">
                     <center>
-                        <a href="products.php?cat='pants'"><h5 class="card-title">Pants</h5></a>
+                        <a href="products.php?cat='pants'"><h5 class="card-title">Womens Leggings</h5></a>
                     </center>
                 </div>
             </div>
@@ -216,10 +216,10 @@ a{
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
             <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-        <img src="https://images.unsplash.com/photo-1549062572-544a64fb0c56?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="first-image">
+        <img src="./images/plazzo.jpg" class="first-image">
         <div class="card-body">
             <center>
-            <h5 class="card-title">T-shirt</h5>
+            <h5 class="card-title">Womens Plazzo</h5>
             </center>
         </div>
 </div>
@@ -227,10 +227,10 @@ a{
     <div class="col-lg-4">
     <div class="card" style="width: 18rem;"  onclick="redirectTo('shoes')">
       <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-  <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" class="first-image">
+  <img src="./images/ljeans.jpg" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">shoes</h5>
+      <h5 class="card-title">Womens Jeans</h5>
     </center>
   </div>
 </div>
