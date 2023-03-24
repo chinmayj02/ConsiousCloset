@@ -172,10 +172,10 @@ a{
         <div class="row">
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-                <img onclick="redirectTo('pants')" src="./images/jeans.jpg" class="first-image" style="height: 428.74;">
+                <img onclick="redirectTo('pants')" src="./images/1.jpeg" class="first-image" style="height: 428.74;">
                 <div class="card-body">
                     <center>
-                        <a href="products.php?cat='pants'"><h5 class="card-title">Mens Jeans</h5></a>
+                        <a href="https://www.everlane.com/products/mens-authentic-straight-jean-washed-black?collection=mens-jeans" target="_blank"><h5 class="card-title">The Authentic Straight Jean</h5></a>
                     </center>
                 </div>
             </div>
@@ -183,10 +183,10 @@ a{
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
             <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-        <img src="./images/trackpant.jpg" class="first-image">
+        <img src="./images/2.jpeg" class="first-image">
         <div class="card-body">
             <center>
-            <h5 class="card-title">Mens Trackpant</h5>
+            <a href="https://www.everlane.com/products/mens-slim-fit-performance-jean-black?collection=mens-jeans" target="_blank"><h5 class="card-title">The Slim 4-Way Stretch Organic Jean | Uniform</h5></a>
             </center>
         </div>
 </div>
@@ -194,10 +194,10 @@ a{
     <div class="col-lg-4">
     <div class="card" style="width: 18rem;"  onclick="redirectTo('shoes')">
       <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-  <img src="./images/shorts.jpg" class="first-image">
+  <img src="./images/3.jpeg" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">Mens Shorts</h5>
+    <a href="https://www.everlane.com/products/mens-slim-fit-performance-jean-black?collection=mens-jeans" target="_blank"><h5 class="card-title">The Performance Chino | Uniform</h5></a>
     </center>
   </div>
 </div>
@@ -206,10 +206,10 @@ a{
   <div class="row">
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;" onclick="redirectTo('pants')">
-                <img onclick="redirectTo('pants')" src="./images/leggings.jpg" class="first-image">
+                <img onclick="redirectTo('pants')" src="./images/4.jpeg" class="first-image">
                 <div class="card-body">
                     <center>
-                        <a href="products.php?cat='pants'"><h5 class="card-title">Womens Leggings</h5></a>
+                    <a href="https://www.everlane.com/products/mens-slim-fit-performance-jean-black?collection=mens-jeans" target="_blank"><h5 class="card-title">The Gardener Jean</h5></a>
                     </center>
                 </div>
             </div>
@@ -217,10 +217,10 @@ a{
         <div class="col-lg-4">
             <div class="card" style="width: 18rem;"  onclick="redirectTo('tshirt')">
             <span id="heart-second" value="So" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-        <img src="./images/plazzo.jpg" class="first-image">
+        <img src="./images/5.jpeg" class="first-image">
         <div class="card-body">
             <center>
-            <h5 class="card-title">Womens Plazzo</h5>
+            <a href="https://www.everlane.com/products/mens-slim-fit-performance-jean-black?collection=mens-jeans" target="_blank"><h5 class="card-title">The Carpenter Jean</h5></a>
             </center>
         </div>
 </div>
@@ -228,10 +228,10 @@ a{
     <div class="col-lg-4">
     <div class="card" style="width: 18rem;"  onclick="redirectTo('shoes')">
       <span id="heart-third" class="heart"><i onclick="wishList()" class="fas fa-heart"></i></span>
-  <img src="./images/ljeans.jpg" class="first-image">
+  <img src="./images/6.jpeg" class="first-image">
   <div class="card-body">
     <center>
-      <h5 class="card-title">Womens Jeans</h5>
+      <a href="https://www.everlane.com/products/womens-ribbed-knit-skirt-cocoa-brown?collection=womens-bottoms" target="_blank"><h5 class="card-title">The Ribbed Knit Skirt</h5></a>
     </center>
   </div>
 </div>
